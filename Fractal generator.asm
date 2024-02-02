@@ -27,6 +27,8 @@ FLO1: .float 1
 FLO2: .float 2
 FLOm1: .float -1
 
+# Only change the four parameters PAR1,PAR2,PAR3,PAR4
+
 PAR1: .float -0.6
 PAR2: .float 0.5
 PAR3: .float 0
