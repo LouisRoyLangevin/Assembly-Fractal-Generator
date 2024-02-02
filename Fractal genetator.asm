@@ -12,7 +12,6 @@ bound: .float 100	# bound for testing for unbounded growth during iteration
 maxIter: .word 16	# maximum iteration count to be used by drawJulia and drawMandelbrot
 scale: .word 16	# scale parameter used by computeColour
 
-# TODO: define various constants you need in your .data segment here
 
 STRsps: .asciiz " + "
 STRsms: .asciiz " - "
