@@ -15,7 +15,7 @@ You can download the "Fractal generator.asm" file and the indications are at the
 
 ## How it works
 ### Julia set
-For each pixel (representing point a+bi in the complex plane) and some parameters p and q, the program verifies how many times we need to apply the function f(x,y) = (x^2 - y^2 + p, 2xy + q) on (a,b) before the norm exceeds some predetermined threshold T.  If after applying f 10 times, we still haven't reached T, then pixel color will be black, if it takes 9 times, dark blue, then blue, light blue, dark green, etc.
+For each pixel (representing point a+bi in the complex plane) and some parameters p and q, the program verifies how many times we need to apply the function f(x,y) = (x^2 - y^2 + p, 2xy + q) on (a,b) before the norm exceeds some predetermined threshold T.  If after applying f 10 times, we still haven't reached T, then pixel color will be black, if it takes 9 times, 8 times dark blue, 7 times then blue, 6 times light blue, 5 times dark green, etc.
 
 ### Mandelbrot set
 For each pixel (representing point a+bi in the complex plane), we look at the color of the point (0,0) in the Julia set with parameters a and b and we assign it this color.
